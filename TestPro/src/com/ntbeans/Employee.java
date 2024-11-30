@@ -21,6 +21,12 @@ public class Employee {
 	public void setEno(String eno) {
 		this.eno = eno;
 	}
+
+	@Override
+	public String toString() {
+		return "Employee [ename=" + ename + ", eno=" + eno + "]";
+	}
+	
 	
 	
 	
